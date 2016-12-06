@@ -11,7 +11,7 @@ class Temperature
     end
 
     def to_kelvin
-      temperature-273.15
+      temperature+273.15
     end
 
     def to_fahrenheit

@@ -10,7 +10,7 @@ class TemperatureTest < Minitest::Test
 
     def test_to_kelvin
         temperature = Temperature.new(0)
-        assert_equal(-273.15, temperature.to_kelvin,"0 celcius does not equal -273,15 Kelvin")
+        assert_equal(273.15, temperature.to_kelvin,"0 celcius does not equal -273,15 Kelvin")
     end
 
     def test_100_celsius_to_fahrenheit
